@@ -1,0 +1,95 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    margin: 0;
+    text-align: center;
+    padding-right: 10px;
+}
+.color-name  {
+    color: rgb(136, 172, 64);
+}
+h3{
+    color:rgb(189, 27, 116);
+}
+section{
+    margin-bottom: 100px;
+    display: flex;
+}
+.half-side{
+    width: 50%;
+    padding-left: 25px;
+}
+.half-side img{
+    width: 450px;
+    border-radius: 10px;
+}
+.button-link{
+    font-family: cursive;
+    color: rgb(66, 23, 3);
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(rgb(184, 184, 247) ,green);
+    border-radius: 10px;
+
+}
+.top-part{
+    background-image: url('topper.jpg') ;
+    border-radius: 10px;
+}
+.middle-part{
+    background-image: url('topper.jpg') ;
+    background-repeat: repeat;
+    background-position: right;
+    
+}
+.food-items img{
+    width: 200px;
+    height: 100px; 
+}
+  
+.food-items{
+     width: fit-content;
+    box-shadow:10px 20px 30px cornflowerblue; ;
+    border-style:  1px black ridge;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    margin-left:50px ;
+    margin-right: 50px ;
+    margin-top: 2px;
+    
+}
+#hilight{
+    font-family:'Festive', cursive; 
+    font-size: 60px;
+    color: cornflowerblue;
+}
+#button-style{
+
+   width: 350px;
+   height: 30px;
+    background-color: coral;
+    border: 10px solid rgb(137, 168, 106) ;
+    background-image: linear-gradient(rgb(137, 168, 106) ,rgb(184, 184, 247) );
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-left: 50px;
+    
+}
+
+.end-box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 100px;
+    box-shadow: 10px 10px 30px rgb(184, 184, 247);
+    border: 1px solid rgb(184, 184, 247);
+    border-radius: 10px;
+    margin-left: 50px;
+
+    
+}
+footer{
+    background-color:rgb(137, 168, 106);
+    margin: 1px;
+    padding: 10px;
+    
+ }
